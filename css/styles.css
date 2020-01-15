@@ -22,12 +22,25 @@ a{
   color: purple;
   text-align: center;
 }
+img:hover{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 155px;
+  border-color: #916dd5;
+  border-style: solid;
+  text-align: center;
+  border-width: 10px;
+  transition: all 0.6s;
+  height: 300px;
+}
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
   border-radius: 155px;
   border-color: #d89cf6;
   border-style: solid;
@@ -45,6 +58,19 @@ h1{
   text-decoration-line: underline;
   text-decoration-color: #d89cf6;
 
+}
+h1:hover{
+  margin-right: 600px;
+
+  font-family:Lobster;
+  font-size: 5em;
+  text-align:center;
+
+  color: #3e206d;
+
+  text-decoration-line: underline;
+  text-decoration-color: #f0e3ff;
+  transition: all 0.6s;
 }
 h2{
   text-align: center;
@@ -99,5 +125,25 @@ input{
 table.center{
 margin-left: auto;
 margin-right: auto;
+
+}
+.li{
+  text-align:center;
+  font-family: Lobster;
+  font-size: 2em;
+  color: #916dd8;
+  text-decoration-line: underline;
+  text-decoration-color: #d89cf6;
+
+}
+.li:hover{
+  text-align:center;
+  font-family: Lobster;
+  font-size: 2em;
+  color: purple;
+  text-decoration-line: underline;
+  text-decoration-color:  #f0e3ff;
+  
+  transition: all .7s;
 
 }
