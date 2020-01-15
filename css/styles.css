@@ -47,6 +47,7 @@ img {
   text-align: center;
   border-width: 3px;
   height: 300px;
+  transition: all 0.6s;
 
 }
 h1{
@@ -57,10 +58,11 @@ h1{
   color: #916dd5;
   text-decoration-line: underline;
   text-decoration-color: #d89cf6;
+  transition: all 0.6s;
 
 }
 h1:hover{
-  margin-right: 600px;
+  margin-right: 2em;
 
   font-family:Lobster;
   font-size: 5em;
@@ -134,6 +136,7 @@ margin-right: auto;
   color: #916dd8;
   text-decoration-line: underline;
   text-decoration-color: #d89cf6;
+  transition: all 0.7s;
 
 }
 .li:hover{
@@ -143,7 +146,7 @@ margin-right: auto;
   color: purple;
   text-decoration-line: underline;
   text-decoration-color:  #f0e3ff;
-  
+
   transition: all .7s;
 
 }
