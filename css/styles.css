@@ -18,14 +18,20 @@ hr {
 
 }
 a{
+  margin: auto;
   color: purple;
   text-align: center;
 }
 
 img {
-  border-color: :purple;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-radius: 155px;
+  border-color: #d89cf6;
   border-style: solid;
-
+  text-align: center;
   border-width: 3px;
   height: 300px;
 
@@ -63,6 +69,7 @@ p{
 table{
   font-family: Lobster;
   font-size: 1.5em;
+  border-collapse: collapse;
 }
 ul{
   text-align: center;
